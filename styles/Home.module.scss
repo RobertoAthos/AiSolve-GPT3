@@ -1,0 +1,142 @@
+.hero{
+  width: 100%;
+  background-image: url('../assets/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.heroContainer{
+  padding: 2rem;
+}
+.heroText{
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h2, p{
+    margin-bottom: 2rem;
+  }
+  h2{
+    background: -webkit-linear-gradient(#0894e6, #2E16E7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1rem;
+    color: gray;
+    line-height: 1.5rem;
+  }
+  span{
+    color: lightgray;
+  }
+
+}
+
+.card{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.2rem;
+  justify-items: center;
+  align-content: center;
+}
+.feature{
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  padding: 3rem;
+}
+.featureContainer{
+    h2{
+      text-align: center;
+      font-size: 2.2rem;
+      background: -webkit-linear-gradient(#0894e6, #2E16E7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 2rem;
+    }
+}
+
+.desktop{
+  padding: 2rem;
+  margin-top: 4rem;
+  background-color: #2E16E7;
+}
+.desktopContainer{
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+      
+    .desktopText{
+      max-width: 400px;
+      h2{
+        font-size: 2rem;
+        margin-bottom:  1rem;
+      }
+      p,span{
+        margin-bottom: 1rem;
+      }
+    }
+}
+
+.ops{
+  margin-top: 2rem;
+  img{
+    width: 150px;
+    height: 50px;
+    margin-right: 1rem;
+  }
+}
+
+@media(max-width: 1080px){
+  .card{
+    grid-template-columns: 1fr 1fr;
+  }
+  .desktopText{
+    text-align: center;
+  }
+  .desktopAppImg{
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+    img{
+      max-width: 800px;
+    }
+  }
+}
+@media(max-width: 700px){
+  .card{
+    grid-template-columns: 1fr;
+  }
+  .heroText{
+    h2{
+      font-size: 1.4rem;
+    }
+  }
+  .featureContainer{
+    h2{
+      font-size: 1.5rem;
+    }
+  }
+  .desktopAppImg{
+    display: none;
+  }
+}
+@media(max-width:375px){
+  .heroText{
+    p{
+      font-size: 0.8rem;
+    }
+  }
+}

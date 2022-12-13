@@ -1,0 +1,1 @@
+export default {"seo":"Interview Questions","desc":"AI provides you a list o 8 questions based on the job.","label1":"Write the job that you want questions","label2":"Your Questions:","prompt":"Create a list of 8 questions for a interview for","title":"You´re gonna make an interview or be interviewed and have no idea what questions talk about ?"}

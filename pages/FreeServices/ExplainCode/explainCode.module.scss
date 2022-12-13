@@ -1,0 +1,196 @@
+.hero{
+    width: 100%;
+    background-image: url('../../../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heroContainer{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.heroText{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+
+        span{
+            color: #2E16E7;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+        h2{
+            background: -webkit-linear-gradient(#0894e6, #2E16E7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2rem;
+        }
+        p{
+            color: gray;
+            margin-bottom: 1rem;
+        }
+        button{
+            background-color: #2E16E7;
+            padding: 15px;
+            border-radius: 15px;
+            font-size: 1.1rem;
+            color: white;
+            transition: 300ms;
+        }
+        button:hover{
+            background-color: #1500b6;
+            transform: scale(1.08);
+        }
+}
+.translation{
+    padding: 4rem;
+}
+.translationContainer {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 3rem;
+    border: 1px solid #2e16e765;
+    border-radius: 20px;
+        h2{
+            text-align: center;
+            font-size: 2rem;
+            color: #2E16E7;
+            font-weight: 700;
+        }
+        .boxArea{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .line{
+                width: 2px;
+                height: 700px;
+                background-color: rgba(128, 128, 128, 0.247);
+            }
+                textarea{
+                    width: 400px;
+                    height: 530px;
+                    font-size: 1rem;
+                    padding: 2rem;
+                    border-radius: 20px;
+                }
+                .code{
+                    background-color: #0E212F;
+                    color: white;
+                }
+                .result{
+
+                    border: 1px solid lightgray;
+                }
+
+        }
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+        label{
+            font-size: 1.2rem;
+            color: #0E212F;
+            font-weight: 500;
+            margin: 1rem;
+        }
+        .clipboard{
+            background-color: lightgray;
+            color: gray;
+            width: 190px;
+            padding: 8px;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            margin: 2rem;
+            .icon{
+                font-size: 1.4rem;
+            }
+        }
+        .clipboard:hover{
+            background-color: rgb(180, 179, 179);
+            transition: 300ms;
+        }
+        .contentCopied{
+            color: rgb(0, 184, 0);
+            font-size: 1rem;
+          }
+}
+
+.loading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    .p{
+        text-align: center;
+    }
+    button{
+        background-color: #2E16E7;
+        padding: 15px;
+        color: white;
+        font-size: 1.2rem;
+        border-radius: 15px;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+    button:hover{
+        background-color: #1500b6;
+        transition: 300ms;
+    }
+    .loadTxt{
+        text-align: center;
+        color: #2E16E7;
+    }
+}
+
+@media(max-width:1200px){
+    .translationContainer{
+        .boxArea{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            input,textarea{
+                width: 300px;
+            }
+            .line{
+                display: none;
+            }
+        }
+       
+    }
+}
+
+@media(max-width:600px){
+   .translationContainer{
+    border: none;
+    .heroText{
+        padding: 2rem;
+        h2{
+            font-size: 1.3rem;
+        }
+    }
+   }
+}
+    .featureContainer{
+    .inputs{
+        textarea{
+            border: 1px solid gray;
+        }
+}
+}
+
+@media(max-width:500px){
+
+}

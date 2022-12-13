@@ -1,0 +1,151 @@
+.hero{
+    width: 100%;
+    height: 20rem;
+    background-image: url('../../../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heroContainer{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+
+    .heroText{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        line-height: 3rem;
+
+        h2{
+            background: -webkit-linear-gradient(#0894e6, #2E16E7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2rem;
+        }
+        p{
+            color: gray;
+        }
+    }
+}
+
+.featureContainer{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 3rem;
+
+    textarea, .result{
+        width: 1000px;
+        height: 200px;
+        border-radius: 20px;
+        border: 1px solid #2E16E7;
+        padding: 20px;
+    }
+
+
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .clipboard{
+        background-color: lightgray;
+        color: gray;
+        width: 190px;
+        padding: 8px;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .icon{
+            font-size: 1.4rem;
+        }
+    }
+    .clipboard:hover{
+        background-color: rgb(180, 179, 179);
+        transition: 300ms;
+    }
+
+    span{
+        margin: 1rem;
+    }
+
+    button{
+        background-color: #2E16E7;
+        color: white;
+        width: 300px;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        margin: 1.2rem 0 1.2rem 0;
+    }
+    button:hover{
+        background-color: #1600b9;
+        transition: 300ms;
+    }
+}
+
+@media(max-width:1100px){
+    .featureContainer{
+        .box{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            textarea{
+                width: 800px;
+            }
+        }
+       
+    }
+}
+
+@media(max-width:840px){
+   .heroContainer{
+    border: none;
+    .heroText{
+        text-align: center;
+        line-height: 2rem;
+        padding: 2rem;
+        h2{
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+   }
+   .featureContainer{
+    .box{
+        textarea{
+            width: 600px;
+        }
+    }
+}
+}
+
+@media(max-width:632px){
+    .featureContainer{
+        .box{
+            textarea{
+                width: 400px;
+            }
+        }
+    }
+
+}
+
+@media(max-width:420px){
+    .featureContainer{
+        .box{
+            textarea{
+                width: 300px;
+            }
+        }
+    }
+
+}

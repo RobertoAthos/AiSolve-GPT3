@@ -1,0 +1,144 @@
+.hero{
+    width: 100%;
+    height: 20rem;
+    background-image: url('../../../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroContainer{
+    width: 100%;
+    max-width: 1400px;
+    height: 20rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .heroText{
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        h2{
+            background: -webkit-linear-gradient(#0894e6, #2E16E7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2rem;
+        }
+        p{
+            color: gray;
+            margin: 1rem;
+        }
+    }
+}
+
+.featureContainer{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 3rem;
+    .inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        margin: auto;
+        line-height: 3rem;
+        .clipboard{
+            background-color: lightgray;
+            color: gray;
+            width: 190px;
+            padding: 8px;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            margin: 2rem;
+            .icon{
+                font-size: 1.4rem;
+            }
+        }
+        .clipboard:hover{
+            background-color: rgb(180, 179, 179);
+            transition: 300ms;
+        }
+        .contentCopied{
+            color: rgb(0, 184, 0);
+            font-size: 1rem;
+          }
+            input{
+                padding: 14px;
+                border: 1px solid #2E16E7;
+                border-radius: 15px;
+            }
+            textarea{
+                height: 400px;
+                border: 1px solid #2E16E7;
+                border-radius: 15px;
+                padding: 14px;
+                font-size: 1rem;
+            }
+
+            button{
+                background-color: #2E16E7;
+                color: white;
+                padding: 15px;
+                border-radius: 15px;
+                font-size: 1.2rem;
+                margin: 2rem;
+            }
+            button:hover{
+                background-color: #1500b4;
+                transition: 300ms;
+            }
+    }
+
+}
+
+@media(max-width:1100px){
+    .featureContainer{
+        .inputs{
+            input,textarea{
+                width: 300px;
+                margin: auto;
+            }
+            .line{
+                display: none;
+            }
+        }
+       
+    }
+}
+
+@media(max-width:600px){
+   .heroContainer{
+    border: none;
+    padding: 2rem;
+   }
+}
+    .featureContainer{
+    .inputs{
+        textarea{
+            border: 1px solid gray;
+        }
+}
+}
+
+@media(max-width:500px){
+    .featureContainer{
+        border: none;
+    }
+    .heroContainer{
+        .heroText{
+            h2{
+                font-size: 1rem;
+            }
+            p{
+                font-size: 0.7rem;
+            }
+        }
+       
+    }
+}

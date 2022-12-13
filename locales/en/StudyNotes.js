@@ -1,0 +1,1 @@
+export default {"seo":"Study Notes","desc":"AI generate topics based on the Subject you put.","label1":"Subject","label2":"Topics you should study:","prompt":"What are 5 key points I should know when studying","title":"You don´t know how to start to studing ?"}

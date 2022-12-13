@@ -1,0 +1,1 @@
+export default {"seo":"Product Name Generator","desc":"AI generate product name based on your description and some seed words","label1":"Product Description","label2":"Seed Words","label3":"Suggested names:","prompt":"Product description:","prompt2":"Seed words:","prompt3":"Product Names :","title":"Are you struggling for creating your product name ?"}

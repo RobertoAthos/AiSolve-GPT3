@@ -1,0 +1,46 @@
+
+.cardContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+.card{
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.336);
+    h3{
+        text-align: center;
+        color: #2E16E7;
+        margin: 1.2rem;
+    }
+    p{
+        color: gray;
+        margin: 1.2rem;
+    }
+    button{
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-color: #2E16E7;
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    button:hover{
+        background-color: #1501ac;
+        color: white;
+        transition: 300ms;
+    }
+
+}

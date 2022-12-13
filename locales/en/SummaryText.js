@@ -1,0 +1,1 @@
+export default {"seo":"Summary Text","desc":"No problem ! Write/Paste your text in the fields below and get\nyout text summarized.","placeholder1":"Write/Paste your Text here.","placeholder2":"Your text summarized here.","title":"You Have to Summarize a Text or Article ?"}

@@ -1,0 +1,1 @@
+export default {"link1":"How it Works?","link2":"About","link3":"Login","sublink1":"Explain Code","sublink2":"Summary Text","sublink3":"Product Name Generator","sublink4":"Create Essays","sublink5":"Study Notes","sublink6":"Interview Questions"}

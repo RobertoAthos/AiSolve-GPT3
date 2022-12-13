@@ -1,0 +1,1 @@
+export default {"seo":"Tópicos de estudo","desc":"A IA gera tópicos com base no assunto que você coloca.","label1":"Matéria/Assunto","label2":"Tópicos que você deve estudar:","prompt":"Quais são os 5 pontos-chave que devo saber ao estudar","title":"Você não sabe como começar a estudar?"}

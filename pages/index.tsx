@@ -112,7 +112,7 @@ export default function Home() {
       <div className={styles.desktopContainer}>
         <div className={styles.desktopText}>
             <h2>Faça o Download do nosso App para Desktop !</h2>
-            <span>Versão Beta 1.0</span>
+            <span>Versão Beta 1.0 em breve !</span>
             <div className={styles.ops}>
                 <picture><Image src={windows} alt='windows logo'/></picture>
                 <picture><Image src={mac} alt='mac logo'/></picture>

@@ -10,6 +10,7 @@ import br from "../../locales/pt-BR/header";
 import usa from "../../locales/en//header";
 import { useRouter } from "next/router";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import Transition from "../Transition";
 
 export default function Header() {
   const [modal, setModal] = useState(false);
@@ -50,7 +51,6 @@ export default function Header() {
               </div>
             </div>
             <li onClick={() => setModal(!modal)}>{t.link2}</li>
-            <Link href='/Login'><li>{t.link3}</li></Link>
             {modal === true ? (
               <div className={styles.aboutCard}>
                 <MdClose
@@ -64,9 +64,6 @@ export default function Header() {
             )}
           </ul>
         </nav>
-        <div className={styles.btns}>
-              <Link href='/Register'><button>Sign Up</button></Link>
-          </div>
         <div className={styles.menu}>
           {nav ? (
             <AiOutlineClose
@@ -83,7 +80,7 @@ export default function Header() {
           )}
         </div>
       </header>
-      <nav className={nav ? `${styles.menuMobile}` : `${styles.menuClose}`}>
+        <nav className={nav ? `${styles.menuMobile}` : `${styles.menuClose}`}>
         <div className={styles.mobileContainer}>
           <ul>
             <li>

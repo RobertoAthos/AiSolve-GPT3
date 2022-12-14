@@ -7,7 +7,7 @@ export default function WriteMachine(props:any) {
     const writeMachine = (text:any, i = 0)=>{
         if(i < text.length){
             setText(text.slice(0, i + 1))
-            setTimeout(()=> writeMachine(text, i + 1),80)
+            setTimeout(()=> writeMachine(text, i + 1),30)
         }
     }
 

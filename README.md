@@ -15,7 +15,7 @@ Uma aplicação com o uso da IA do momento, o GPT-3. Consumi a api da openAi e g
 Para usar o taskify, siga estas etapas:
 
 ```
-Clone esse repo
+gh repo clone RobertoAthos/AiSolve-GPT3
 ```
 
 ```

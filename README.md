@@ -2,6 +2,8 @@
 
 Uma aplicação com o uso da IA do momento, o GPT-3. Consumi a api da openAi e gerei várias features interessantes com a inteligência artificial, funcionalidades que podem ajudar pessoas no cotidiano, economizando tempo de suas vidas.
 
+An application using the AI of the moment, GPT-3. I got the openAi api and generated several interesting features with artificial intelligence, features that can help people in their daily lives, saving time in their lives.
+
 ### 🌐 Live url: https://taskifyai.vercel.app/
 
 <img src="https://user-images.githubusercontent.com/94712001/207592942-84e702de-3431-4958-a86a-9d58af573a12.png" alt="imagem taskify">
